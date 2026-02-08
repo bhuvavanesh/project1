@@ -24,103 +24,218 @@ Publish the website in the LocalHost.
 
 # PROGRAM :
 ```
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dribbble Clone</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg" style="background-color: rgb(219, 124, 140);">
-        <div class="container">
-            <a class="navbar-brand" href="#">Dribbble</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#shots">Shots</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+MAIN 
 
-    <div class="bg-light text-center py-5">
-        <div class="container">
-            <h1 class="display-4">Discover the World of Design</h1>
-            <p class="lead">Explore amazing shots from creative professionals all around the world.</p>
-            <a href="#shots" class="btn btn-primary">View Shots</a>
-        </div>
-    </div>
-
-    <div id="shots" class="container my-5">
-        <h2 class="text-center mb-4">Featured Shots</h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card">
-                    <img src="project 1.webp" class="card-img-top" alt="Shot 1">
-                    <div class="card-body">
-                        <h5 class="card-title">LOGO MAKER</h5>
-                        <p class="card-text">Obsessed with this show.
-                        Visit my Instagram to see the full process</p>
-                    </div>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body class="text-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <div class="container-fluid">
+                <a class="navbar-brand text-dark" href="#">PHARMACY COMPANY</a>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex">
+                        <li class="nav-item " >
+                            <a class="nav-link text-white" href="C:\Users\admin\home.html">HOME</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white" href="C:\Users\admin\product.html">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="C:\Users\admin\about.html">ABOUT</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="col">
-                <div class="card">
-                    <img src="project 2.webp" class="card-img-top" alt="Shot 2">
-                    <div class="card-body">
-                        <h5 class="card-title">APP DESIGN</h5>
-                        <p class="card-text">22+ Categories, New screens added weekly, lifetime updates
-                        (for Designers and Startups).</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="project 3.webp" class="card-img-top" alt="Shot 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Finance web design</h5>
-                        <p class="card-text">Luxury Elegant Modern Fireplace Furniture Website Responsive</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        </nav>
+        <h1>SHREYA PHARMACY</h1>
+        <img src="C:\Users\admin\Downloads\pharmacy.jpeg">
 
-    <div id="about" class="bg-light py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">About Us</h2>
-            <p class="text-center">Dribbble is the go-to platform for discovering and showcasing creative work. We empower designers and artists to share their projects, connect with others, and find inspiration.</p>
-        </div>
-    </div>
-
-    <footer class="bg-dark text-white py-4">
-        <div class="container text-center">
-            <p>&copy; 2025 Dribbble Clone. All rights reserved.Designed and Developed by Ranjith R</p>
-        </div>
-    </footer>
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<footer class="bg-light text-center py-3">
+<p>Designed and Developed by S.RAMITHA CHOWDARY</p>
+</footer>
 </body>
+</html>
+
+PRODUCT 
+
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+            <div class="container-fluid">
+                <a class="navbar-brand text-dark" href="#">PHARMACY COMPANY</a>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex">
+                        <li class="nav-item " >
+                            <a class="nav-link text-white" href="C:\Users\admin\home.html">HOME</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white" href="C:\Users\admin\product.html">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="C:\Users\admin\about.html">ABOUT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+       
+        <div class="row">
+            <div class="col-12">
+                <h2>Contact Us</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-light text-center py-3">
+        <p>Designed and Developed by S.RAMITHA CHOWDARY</p>
+    </footer>    
+    </body>
+
+</html>
+
+HOME 
+
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body class="text-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand text-dark" href="C:\Users\admin\home.html">AROGYA Pharmacy</a>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex">
+                        <li class="nav-item " >
+                            <a class="nav-link text-white" href=" C:\Users\admin\home.html">HOME</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white" href="C:\Users\admin\product.html">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="C:\Users\admin\about.html">ABOUT</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col">
+                <br><br>
+                <h1>Welcome to Our Pharmacy</h1>
+                <p>We provide a variety of pharmaceutical products and services. Your health is our priority!</p>
+            </div>
+        </div>
+        <img  src="c:\Users\Sashmitha sree\Pictures\Saved Pictures\istockphoto-1135284188-612x612.jpg">
+        <footer class="bg-light text-center py-3">
+            <p>Designed and Developed by S.RAMITHA CHOWDARY</p>
+        </footer>
+    </body>
+
+    </html>
+
+    ABOUT 
+
+    <html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand text-dark" href="C:\Users\admin\home.html">PHARMACY COMPANY</a>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex">
+                        <li class="nav-item " >
+                            <a class="nav-link text-white" href=" C:\Users\admin\home.html">HOME</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-white" href="C:\Users\admin\product.html">PRODUCTS</a>
+                            <a class="nav-link text-white" 
+                        </li>
+                        <li class="naBOUT</a>v-item">
+                            <a class="nav-link text-white" href="C:\Users\admin\about.html">ABOUT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           
+                <p class="Toggle text">
+                    About Us<br>
+
+Welcome to arogya Pharmacy, your trusted partner in health and wellness. Established in 2020, we are dedicated to providing high-quality pharmaceutical care, personalized service, and expert guidance to ensure the well-being of our customers.
+           
+<br><br><br>
+Who We Are<br>
+At arogya pharmacy, we are more than just a pharmacy. We are a team of experienced healthcare professionals committed to improving the quality of life for our community. Our staff includes licensed pharmacists, knowledgeable technicians, and friendly support staff who are passionate about meeting your healthcare needs.
+<br><br><br>
+Our Mission<br>
+Our mission is to deliver reliable, affordable, and accessible healthcare solutions tailored to each customer. We believe in fostering trust and building long-term relationships with our clients by consistently exceeding their expectations.
+<br><br><br>
+What We Offer<br>
+Prescription Services: Fast and accurate prescription filling with expert advice.
+Over-the-Counter Products: A wide range of health and wellness products, including vitamins, supplements, and personal care items.
+Consultation Services: One-on-one consultations for medication management, health screenings, and wellness advice.
+Home Delivery: Convenient and timely delivery of your medications right to your doorstep.
+Specialty Medications: Support for complex conditions with specialized medications and care programs.
+<br><br><br>Why Choose Us?<br>
+Customer-Centric Care: Your health and satisfaction are our top priorities.
+Expert Guidance: Our pharmacists provide personalized advice to help you make informed healthcare decisions.
+Quality Assurance: We adhere to the highest standards of safety and quality in everything we do.
+Community Commitment: We are proud to be an integral part of our community, supporting local initiatives and wellness programs.
+<br><br><br>Our Vision<br>
+We envision a healthier future where everyone has access to exceptional pharmaceutical care. By embracing innovation and staying at the forefront of the healthcare industry, we aim to be your lifelong partner in health.
+<br><br><br>
+Thank you for choosing arogya Pharmacy. We look forward to serving you and making a positive impact on your health journey.
+                </p>
+            </div>
+        </nav>
+        <footer class="bg-light text-center py-3">
+            <p>Designed and Developed by S.RAMITHA CHOWDARY</p>
+        </footer>
+    </body>
+
 </html>
 ```
 
 # OUTPUT:
 
-<img width="1019" height="548" alt="image" src="https://github.com/user-attachments/assets/dd089d0a-1b6c-4cc4-bd55-47bec5f35300" />
+<img width="1738" height="1140" alt="image" src="https://github.com/user-attachments/assets/da3e9bc2-3221-4eed-8ab0-12ca8cd386c0" />
+
+<img width="1646" height="1125" alt="image" src="https://github.com/user-attachments/assets/a25f95e7-82a4-4b27-a72a-1265d291ab4e" />
+
+<img width="1717" height="1113" alt="image" src="https://github.com/user-attachments/assets/71199e44-e734-42cb-b5a1-64bc752512f5" />
+
+<img width="1918" height="1135" alt="image" src="https://github.com/user-attachments/assets/625dc4b2-3fb3-4f4f-bc36-c36b94269468" />
 
 # RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
